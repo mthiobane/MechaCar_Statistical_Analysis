@@ -1,5 +1,6 @@
 # MechaCar_Statistical_Analysis
 
+## DELIVERABLE 1
 ## Linear Regression to Predict MPG
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -13,5 +14,15 @@ This is not our case.
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 We can say that this linear model predicts mpg of MechaCar prototypes effectively because the r-squared value is around 0.7149. this mean that 71% of all mpg predictions will be determined by this model.
 
+## DELIVERABLE 2
+
 ### The p-value and the r-squared value for the linear regression model![The p-value and the r-squared value for the linear regression model](https://user-images.githubusercontent.com/89410157/144967081-4430ee95-b8cf-4dd8-8da7-ace7534f499f.png)
 
+### Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The global manufacturing data meet the specification for all manufacturing lots because the variance is equal to 62.29, so it meet the 100 PSI variance.
+
+### The mean, median, variance, and standard deviation of the suspension coil’s PSI column![The mean, median, variance, and standard deviation of the suspension coil’s PSI column](https://user-images.githubusercontent.com/89410157/144967197-0b541df8-acbe-4613-a063-13b580d2518c.png)
+
+However, when we look closely the data and analysis by lot, we see that the input of each lot to the variance is very disproportionate. Lot 1 and lot 2 are very low respectively 0.98 and 7.5. So, the requirement are meet with the lot3 which is very high (170.29). 
+
+### lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot![lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot](https://user-images.githubusercontent.com/89410157/144967386-8bbe9ef1-8af1-4347-aed0-a9fadf598411.png)
