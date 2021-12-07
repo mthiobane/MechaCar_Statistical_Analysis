@@ -26,3 +26,27 @@ The global manufacturing data meet the specification for all manufacturing lots 
 However, when we look closely the data and analysis by lot, we see that the input of each lot to the variance is very disproportionate. Lot 1 and lot 2 are very low respectively 0.98 and 7.5. So, the requirement are meet with the lot3 which is very high (170.29). 
 
 ### lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot![lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot](https://user-images.githubusercontent.com/89410157/144967386-8bbe9ef1-8af1-4347-aed0-a9fadf598411.png)
+
+## Deliverable 3 
+### Use t.test() to determine if the PSI across ALL lots is statistically different from the pop. mean of 1,500 PSI
+If we take a significance level of 0.05, we can say that for lot 1 we fail to reject the null hypothesis as the p-value is equal to 1. The lot has a relatively small confidence interval.
+### lot 1 result
+![lot 1 result](https://user-images.githubusercontent.com/89410157/144967931-522b9f91-5269-4969-9ad0-63b2b627282a.png)
+
+The founding are the same for lot 2, we fail to reject the null hypothesis as the p-value is over the significance level of 0.05 equal to 0.6072
+### lot 2 result
+![lot 2 result](https://user-images.githubusercontent.com/89410157/144968142-04b2f5f9-0938-42fe-86b1-8492d6e3d6e1.png)
+
+We have different founding regarding lot 3. The p-value is 0.04168, so under the significant level of 0.05.  the confidence interval for the third lot does not include the predicted population mean.
+
+### lot 2 result
+![lot 3 result](https://user-images.githubusercontent.com/89410157/144968268-58c279f5-e68e-46d1-bf39-d0f160ec3709.png)
+
+## Deliverable 4
+With the development of the car industry, we can analysis all the manufacturers are trying the make more efficient car. But performance need most of the time a lot of energy. So, we can analyze the relation between horsepower and the oil consumption of the car.
+ Oil consumption: independent variable
+Horsepower: dependent value 
+Are the Horsepower related the oil consumption of the car : null hypothesis.
+
+
+
